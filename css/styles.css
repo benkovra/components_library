@@ -229,8 +229,11 @@ body {
   font-size: 20px;
   color: white;
 
-}
 
+}
+.buttons button {
+  margin-left: 2rem;
+}
 .btn {
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
