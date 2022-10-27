@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Components library</title>
     <link rel="stylesheet" href="./css/styles.css">
 
@@ -41,9 +44,9 @@
     <main>
        <div class="buttons"> <hr>
         <p>Buttons</p>
-        <button class="btn btn-layered-3d btn-layered-3d--blue"> Click me </button>
-        <button class="btn btn-shadow-drop btn-shadow-drop--red"> Click me </button>
-        <button class="btn btn-striped-shadow btn-striped-shadow--purple"> <span>Click me</span> </button>
+        <button class="btn btn-layered-3d btn-layered-3d--blue"> Click me </button> 
+        <button class="btn btn-shadow-drop btn-shadow-drop--red"> Click me </button> 
+        <button class="btn btn-striped-shadow btn-striped-shadow--purple"> <span>Click me</span> </button> 
         <input id="chck" type="checkbox">
         <label for="chck" class="check-trail">
         <span class="check-handler"></span>
@@ -51,13 +54,39 @@
 
        </div>
 
-        <div class="navigation">
+       
+        <div class="typographic"> <hr>
+            <p>Typographic</p>
+            <h1 class="neon">
+                Yay its neon
+            </h1>
+            <h2> OOH! its 3D!</h2>
+            <h3>cool nice gradient</h3>
+            <h4> fancy title</h4>
 
         </div>
-        <div class="typographic">
-
-        </div>
-        <div class="media">
+        <div class="media"> <hr>
+            <p>media cards</p>
+            <ul class="card-wrapper">
+                <li class="card">
+                  <img src='https://images.unsplash.com/photo-1611916656173-875e4277bea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400' alt=''>
+                  <h5><a href="">A Super Wonderful Headline</a></h5>
+                  <p>Lorem ipsum sit dolor amit</p>
+                </li>
+                <!--media card 2-->
+                <section class="page-contain">
+                    <a href="#" class="data-card">
+                      <h6>270</h6>
+                      <h7>Care Facilities</h7>
+                      <p>Aenean lacinia bibendum nulla sed consectetur.</p>
+                      <span class="link-text">
+                        View All Providers
+                        <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#753BBD"/>
+                  </svg>
+                      </span>
+                    </a>
+                
             
         </div>
     </main>
